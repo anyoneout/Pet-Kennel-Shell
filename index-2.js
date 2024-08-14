@@ -24,7 +24,7 @@ function createPet(petName, petSpecies, petHappiness, petEnergy) {
     return `${this.name} has rested. Energy is now fully restored to ${this.energy}.`;
     }
   }
-  console.log("Created a cat...");
+  console.log("Created a pet...");
   pet.status();
   return pet;
 
