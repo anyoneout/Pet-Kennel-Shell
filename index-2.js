@@ -1,5 +1,4 @@
 
-
 function createPet(petName, petSpecies, petHappiness, petEnergy) {
   let pet = {
     name: petName,

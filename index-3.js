@@ -18,19 +18,24 @@ function createPet(name, species, age) {
 
 let pet1 = createPet("Swedgin", "Cat", 12);
 let pet2 = createPet("Jane", "Cat", 10);
-let pet3 = createPet("Tawook", "Cat", 15);
+let pet3 = createPet("Tawook", "dog", 15);
 let pet4 = createPet("Lily", "Cat", 13);
+let pet5 = createPet("Potato", "Dog", 7);
+let pet6 = createPet("Broccoli", "Fish", 7);
 
 kennel.push(pet1);
 kennel.push(pet2);
 kennel.push(pet3);
 kennel.push(pet4);
+kennel.push(pet5);
 
-console.log(kennel);
+kennel[5] = pet6;
+
+console.table(kennel);
 
 kennel[0].restPet();
 kennel[1].restPet();
 kennel[2].restPet();
 kennel[3].restPet();
 
-console.log(kennel);
+console.table(kennel);
